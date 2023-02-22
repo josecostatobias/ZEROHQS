@@ -1,0 +1,36 @@
+
+.homeTcontra{
+    background-color: #000000;
+}
+.jogo{
+    background-color: rgb(189, 189, 189);
+    display: flex;
+}
+.controleMovimento{
+    background-color: rgb(61, 61, 61);
+}
+.tela{
+    margin: auto;
+    align-items: center;
+    background: #000000;
+    width: 800px;
+    height: 400px;
+}
+.controleBotao{
+    margin: 10px;
+    background-color: rgb(114, 114, 114);
+}
+
+
+
+
+
+.botaoY{
+    background-color: rgb(216, 174, 255);
+}
+.botaoX{
+    background-color: rgb(216, 174, 255);
+}
+.botaoTurbo{
+    background-color: rgb(133, 58, 204);
+}
