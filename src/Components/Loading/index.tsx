@@ -5,11 +5,11 @@ interface LoadingProps {
   message?: string;
 }
 
-const Loading: React.FC<LoadingProps> = ({ message = "Loading..." }) => {
+const Loading: React.FC<LoadingProps> = ({ message = "" }) => {
   return (
     <div className="loading-container">
       <div className="spinner"></div>
-      
+      <p>{message}</p>
     </div>
   );
 }

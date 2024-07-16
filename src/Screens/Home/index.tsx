@@ -22,8 +22,8 @@ const Home: React.FC = () => {
   return (
     <div>
       <h1>Tela Inicial</h1>
-      <div className="App">
-        <header className="App-header">
+      <div>
+        <header>
           <Button text="Clique aqui!" onClick={handleButtonClick} />
           <button onClick={showAlert}>Mostrar Alerta</button>
         </header>
