@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import AlertModal from '../../Components/Alert/index';
 import Button from '../../Components/Button/index';
-
+import './styles.css';
 const Home: React.FC = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -24,7 +24,7 @@ const Home: React.FC = () => {
       <h1>Tela Inicial</h1>
       <div>
         <header>
-          <Button text="Clique aqui!" onClick={handleButtonClick} />
+          <Button text="Clique aqui!" onClick={handleButtonClick}></Button>
           <button onClick={showAlert}>Mostrar Alerta</button>
         </header>
         <AlertModal
@@ -36,8 +36,8 @@ const Home: React.FC = () => {
       </div>
       <nav>
         <ul>
-          <li><Link to="/zerohqs">ZeroHQs</Link></li>
-          <li><Link to="/zeroworldpower">ZeroWorldPower</Link></li>
+          <li ><Link to="/zerohqs">ZeroHQs</Link></li>
+          <li className="Fonte"><Link to="/zeroworldpower">ZeroWorldPower</Link></li>
           <li><Link to="/zeroclaysculpture">ZeroClaySculpture</Link></li>
         </ul>
       </nav>
