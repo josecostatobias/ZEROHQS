@@ -4,6 +4,7 @@ import Home from '../Screens/Home';
 import ZeroHQs from '../Screens/ZeroHQs';
 import ZeroWorldPower from '../Screens/ZeroWorldPower';
 import ZeroClaySculpture from '../Screens/ZeroClaySculpture';
+import GlassPixelEngine from '../Screens/GlassPixelEngine';
 
 const AppRoutes: React.FC = () => {
   return (
@@ -13,6 +14,7 @@ const AppRoutes: React.FC = () => {
         <Route path="/zerohqs" element={<ZeroHQs />} />
         <Route path="/zeroworldpower" element={<ZeroWorldPower />} />
         <Route path="/zeroclaysculpture" element={<ZeroClaySculpture />} />
+        <Route path="/glasspixelengine" element={<GlassPixelEngine />} />
       </Routes>
     </Router>
   );
